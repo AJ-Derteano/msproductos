@@ -16,9 +16,9 @@ Archivo `application.properties`:
 
 ```properties
 spring.application.name=msproductos
-spring.datasource.url=jdbc:postgresql://localhost:5434/proveedores
-spring.datasource.username=dbproveedores
-spring.datasource.password=dbproveedores
+spring.datasource.url=jdbc:postgresql://HOST:PORT/PG_DB
+spring.datasource.username=USERNAME
+spring.datasource.password=PASSWORD
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
